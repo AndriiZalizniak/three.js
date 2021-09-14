@@ -16,7 +16,8 @@
     "gsap": "^3.7.1",
     "imagesloaded": "^4.1.4",
     "reset.css": "^2.0.2",
-    "three": "^0.127.0"
+    "three": "^0.127.0",
+    "three-orbit-controls": "^82.1.0"
   },
   "devDependencies": {
     "cssnano": "^5.0.5",
