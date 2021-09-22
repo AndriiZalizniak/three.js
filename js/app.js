@@ -137,7 +137,7 @@ export default class Sketch {
     this.earth = new THREE.Mesh(this.earthGeometry, this.earthMaterial);
     this.earth.position.x = 500;
     // this.earth.position.z = 500;
-    this.solarSystem.add(this.earth);
+    this.earthSystem.add(this.earth);
     // this.objects.push(this.earth);
     // 
     this.earthSystemLocal = new THREE.Object3D();
@@ -267,7 +267,7 @@ export default class Sketch {
     // this.solarSystem.rotation.y = this.time * 100;
     this.mercurySystem.rotation.y = this.time / 0.241 * -1;
     this.venusSystem.rotation.y = this.time / 0.615 * -1;
-    this.earthSystem.rotation.y = this.time * 100 * -1;
+    this.earthSystem.rotation.y = this.time / 1 * -1;
     this.marsSystem.rotation.y = this.time / 1.88 * -1;
     this.jupiterSystem.rotation.y = this.time / 11.857 * -1;
     this.saturnSystem.rotation.y = this.time / 29.4 * -1;
